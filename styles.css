@@ -1,0 +1,79 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: monaco;
+}
+
+body{
+   background-color: #222222; 
+   display: flex; 
+   justify-content: center;
+}
+
+canvas{ 
+    background-color: white;
+    border: 1px solid red;
+}
+
+.container{
+    width: 1280px; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.header{
+    display: flex;
+    width: 100%; 
+    border: 1px solid red;
+}
+
+#heading{
+    width: 40%; 
+    margin: 0 1em; 
+}
+
+
+.tool-container{ 
+    display: flex; 
+    width: 60%; 
+    height: 100%; 
+    align-items: center;
+    margin-bottom: 0.75rem;
+    border: 1px solid red;
+    justify-content: flex-end; 
+
+}
+
+.tool-container button{
+    padding: 0 1em; 
+    margin: 0 1em; 
+}
+
+.tool-icon{
+    height: 25px; 
+    width: 25px; 
+}
+
+.workspace{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.toolbar{
+    text-align: center;
+    background-color: #444444;
+}
+
+.canvas-tools{
+
+}
+
+.canvas-tools img{
+    width: 25px; 
+    height: 25px; 
+}
